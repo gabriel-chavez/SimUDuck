@@ -8,14 +8,14 @@ namespace SimUDuckSolucion3
 {
     public class Duck
     {
-        public string Swim()
+        public void Swim()
         {
-            return "I am Swiming";
+            Console.WriteLine("I am Swiming");
         }
         
-        public string Display()
+        public void Display()
         {
-            return "I am Duck";
+            Console.WriteLine("I am Duck");
         }
     }
 }

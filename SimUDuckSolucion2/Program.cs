@@ -12,22 +12,22 @@ namespace SimUDuckSolucion2
         {            
             //Nuevo requerimiento metodo volar
             MallardDuck mallarDuck = new MallardDuck();
-            Console.WriteLine(mallarDuck.Display());
-            Console.WriteLine(mallarDuck.Quack());
-            Console.WriteLine(mallarDuck.Swim());
-            Console.WriteLine(mallarDuck.Fly());
+            mallarDuck.Display();
+            mallarDuck.Quack();
+            mallarDuck.Swim();
+            mallarDuck.Fly();
             Console.WriteLine("-------------------------");
             RedheadDuck redheadDuck = new RedheadDuck();
-            Console.WriteLine(redheadDuck.Display());
-            Console.WriteLine(redheadDuck.Quack());
-            Console.WriteLine(redheadDuck.Swim());
-            Console.WriteLine(redheadDuck.Fly());
+            redheadDuck.Display();
+            redheadDuck.Quack();
+            redheadDuck.Swim();
+            redheadDuck.Fly();
             Console.WriteLine("-------------------------");
             RubberDuck rubberDuck = new RubberDuck();
-            Console.WriteLine(rubberDuck.Display());
-            Console.WriteLine(rubberDuck.Quack());
-            Console.WriteLine(rubberDuck.Swim());
-            Console.WriteLine(rubberDuck.Fly());
+            rubberDuck.Display();
+            rubberDuck.Quack();
+            rubberDuck.Swim();
+            rubberDuck.Fly();
             Console.ReadKey();
         }
     }

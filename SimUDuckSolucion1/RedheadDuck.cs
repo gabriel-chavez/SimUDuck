@@ -8,9 +8,9 @@ namespace SimUDuckSolucion1
 {
     class RedheadDuck:Duck
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am RedHead Duck";
+            Console.WriteLine("I am RedHead Duck");
         }
     }
 }

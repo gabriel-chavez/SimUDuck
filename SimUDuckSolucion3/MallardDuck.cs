@@ -8,18 +8,18 @@ namespace SimUDuckSolucion3
 {
     public class MallardDuck : Duck, IFlyable, IQuackable
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am Mallard Duck";
+            Console.WriteLine("I am Mallard Duck");
         }
-        public string Fly()
+        public void Fly()
         {
-            return "I am Flying";
+            Console.WriteLine("I am Flying");
         }
 
-        public string Quack()
+        public void Quack()
         {
-            return "Quack";
+            Console.WriteLine("Quack");
         }
     }
 }

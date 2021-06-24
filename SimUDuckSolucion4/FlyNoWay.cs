@@ -8,9 +8,9 @@ namespace SimUDuckSolucion4
 {
     class FlyNoWay : IFlyBehavior
     {
-        public object Fly()
+        public void Fly()
         {
-            return "I can't fly";
+            Console.WriteLine("I can't fly");
         }
     }
 }

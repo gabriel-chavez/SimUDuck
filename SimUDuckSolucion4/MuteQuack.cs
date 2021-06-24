@@ -8,9 +8,9 @@ namespace SimUDuckSolucion4
 {
     public class MuteQuack:IQuackBehavior
     {
-        public object Quacking()
+        public void Quacking()
         {
-            return "<<silence>>";
+            Console.WriteLine("<<silence>>");
         }
     }
 }

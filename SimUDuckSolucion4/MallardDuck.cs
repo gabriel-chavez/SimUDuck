@@ -13,9 +13,9 @@ namespace SimUDuckSolucion4
             quackBehavior = new Quack();
             flyBehavior = new FlyWithWings();
         }
-        public override object Display()
+        public override void Display()
         {
-            return "I'm a real Mallard duck";
+            Console.WriteLine("I'm a real Mallard duck");
         }
     }
 }

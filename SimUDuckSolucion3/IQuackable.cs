@@ -8,6 +8,6 @@ namespace SimUDuckSolucion3
 {
     public interface IQuackable
     {
-        string Quack();
+        void Quack();
     }
 }

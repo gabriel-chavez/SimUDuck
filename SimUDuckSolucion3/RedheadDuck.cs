@@ -8,19 +8,19 @@ namespace SimUDuckSolucion3
 {
     public class RedheadDuck : Duck, IFlyable, IQuackable
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am RedHead Duck";
+            Console.WriteLine("I am RedHead Duck");
         }
 
-        public string Fly()
+        public void Fly()
         {
-            return "I am Flying";
+            Console.WriteLine("I am Flying");
         }
 
-        public string Quack()
+        public void Quack()
         {
-            return "Quack";
+            Console.WriteLine("Quack");
         }
     }
 }

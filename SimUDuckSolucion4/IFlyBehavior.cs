@@ -8,6 +8,6 @@ namespace SimUDuckSolucion4
 {
     public interface IFlyBehavior
     {
-        object Fly();
+        void Fly();
     }
 }

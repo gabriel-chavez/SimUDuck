@@ -8,9 +8,9 @@ namespace SimUDuckSolucion4
 {
     public class Squeak : IQuackBehavior
     {
-        public object Quacking()
+        public void Quacking()
         {
-            return "Squeak";
+            Console.WriteLine("Squeak");
         }
     }
 }

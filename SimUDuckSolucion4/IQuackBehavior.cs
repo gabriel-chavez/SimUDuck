@@ -8,6 +8,6 @@ namespace SimUDuckSolucion4
 {
     public interface IQuackBehavior
     {
-        object Quacking();
+        void Quacking();
     }
 }

@@ -8,21 +8,21 @@ namespace SimUDuckSolucion2
 {
     public class Duck
     {
-        public string Swim()
+        public void Swim()
         {
-            return "I am Swiming";
+            Console.WriteLine("I am Swiming");
         }
-        public string Quack()
+        public void Quack()
         {
-            return "Quack";
+            Console.WriteLine("Quack");
         }
-        public string Display()
+        public void Display()
         {
-            return "I am Duck";
+            Console.WriteLine("I am Duck");
         }
-        public string Fly()
+        public void Fly()
         {
-            return "I am flying";
+            Console.WriteLine("I am flying");
         }
     }
 }

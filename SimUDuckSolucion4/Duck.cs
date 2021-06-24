@@ -19,18 +19,18 @@ namespace SimUDuckSolucion4
         {
             quackBehavior = qb;
         }
-        public abstract object Display();
-        public object PerformFly()
+        public abstract void Display();
+        public void PerformFly()
         {
-            return flyBehavior.Fly();
+             flyBehavior.Fly();
         }
-        public object PerformQuack()
+        public void PerformQuack()
         {
-            return quackBehavior.Quacking();
+             quackBehavior.Quacking();
         }
-        public string Swim()
+        public void Swim()
         {
-            return "All ducks float, even decoys!";
+            Console.WriteLine("All ducks float, even decoys!");
         }
     }
 }

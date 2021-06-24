@@ -13,9 +13,9 @@ namespace SimUDuckSolucion4
             flyBehavior = new FlyNoWay();
             quackBehavior = new Quack();
         }
-        public override object Display()
+        public override void Display()
         {
-            return "I'm a model duck";
+            Console.WriteLine("I'm a model duck");
         }
     }
 }

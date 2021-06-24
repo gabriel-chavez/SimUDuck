@@ -8,13 +8,13 @@ namespace SimUDuckSolucion3
 {
     class RubberDuck : Duck, IQuackable
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am Rubber Duck";
+            Console.WriteLine("I am Rubber Duck");
         }
-        public string Quack()
+        public void Quack()
         {
-            return "Quack";
+            Console.WriteLine("Quack");
         }
     }
 }

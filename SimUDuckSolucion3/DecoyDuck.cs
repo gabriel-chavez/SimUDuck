@@ -8,9 +8,9 @@ namespace SimUDuckSolucion3
 {
     class DecoyDuck:Duck
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am Decoy Duck";
+            Console.WriteLine("I am Decoy Duck");
         }
     }
 }

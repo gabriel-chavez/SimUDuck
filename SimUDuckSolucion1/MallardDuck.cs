@@ -8,9 +8,9 @@ namespace SimUDuckSolucion1
 {
     public class MallardDuck:Duck
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am Mallard Duck";
+            Console.WriteLine("I am Mallard Duck");
         }
     }
 }

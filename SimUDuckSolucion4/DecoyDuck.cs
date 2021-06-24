@@ -14,9 +14,9 @@ namespace SimUDuckSolucion4
             flyBehavior = new FlyNoWay();
         }
 
-        public override object Display()
+        public override void Display()
         {
-            return "I'm a real Decoy duck";
+            Console.WriteLine("I'm a real Decoy duck");
         }
     }
 }

@@ -8,9 +8,9 @@ namespace SimUDuckSolucion4
 {
     public class FlyWithWings : IFlyBehavior
     {
-        public object Fly()
+        public void Fly()
         {
-            return "I'm flying!!";
+            Console.WriteLine("I'm flying!!");
         }
     }
 }

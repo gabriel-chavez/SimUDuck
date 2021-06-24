@@ -14,9 +14,9 @@ namespace SimUDuckSolucion4
             quackBehavior = new Quack();
         }
 
-        public override object Display()
+        public override void Display()
         {
-            return "I'm a real Rubber duck";
+            Console.WriteLine("I'm a real Rubber duck");
         }
     }
 }

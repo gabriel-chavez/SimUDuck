@@ -12,14 +12,14 @@ namespace SimUDuckSolucion1
         {
             //Aplicacion de simulación existente muestra al pato, emite un sonido y nada.
             MallardDuck mallarDuck = new MallardDuck();                        
-            Console.WriteLine(mallarDuck.Display());
-            Console.WriteLine(mallarDuck.Quack());
-            Console.WriteLine(mallarDuck.Swim());
+            mallarDuck.Display();
+            mallarDuck.Quack();
+            mallarDuck.Swim();
             Console.WriteLine("-------------------------");
             RedheadDuck redheadDuck = new RedheadDuck();
-            Console.WriteLine(redheadDuck.Display());
-            Console.WriteLine(redheadDuck.Quack());
-            Console.WriteLine(redheadDuck.Swim());           
+            redheadDuck.Display();
+            redheadDuck.Quack();
+            redheadDuck.Swim();           
             Console.ReadKey();
         }
     }

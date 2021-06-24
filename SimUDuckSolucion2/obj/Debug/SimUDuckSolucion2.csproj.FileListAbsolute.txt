@@ -5,3 +5,10 @@ C:\Users\lchavez\source\repos\SimUDuck\SimUDuckSolucion2\obj\Debug\SimUDuckSoluc
 C:\Users\lchavez\source\repos\SimUDuck\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.exe
 C:\Users\lchavez\source\repos\SimUDuck\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.pdb
 C:\Users\lchavez\source\repos\SimUDuck\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.csprojAssemblyReference.cache
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\bin\Debug\SimUDuckSolucion2.exe.config
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\bin\Debug\SimUDuckSolucion2.exe
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\bin\Debug\SimUDuckSolucion2.pdb
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.csprojAssemblyReference.cache
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.exe
+C:\Users\Gabriel\Documents\MAESTRIA\Tarea Clase 3\SimUDuck-master\SimUDuck-master\SimUDuckSolucion2\obj\Debug\SimUDuckSolucion2.pdb

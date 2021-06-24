@@ -8,6 +8,6 @@ namespace SimUDuckSolucion3
 {
     public interface IFlyable
     {        
-        string Fly();
+        void Fly();
     }
 }

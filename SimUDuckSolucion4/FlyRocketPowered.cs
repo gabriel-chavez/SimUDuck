@@ -8,9 +8,9 @@ namespace SimUDuckSolucion4
 {
     public class FlyRocketPowered : IFlyBehavior
     {
-        public object Fly()
+        public void Fly()
         {
-            return "I'm flying with a rocket";
+            Console.WriteLine("I'm flying with a rocket");
         }
     }
 }

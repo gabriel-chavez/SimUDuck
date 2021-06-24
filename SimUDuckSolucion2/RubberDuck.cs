@@ -8,19 +8,19 @@ namespace SimUDuckSolucion2
 {
     public class RubberDuck:Duck
     {
-        public new string Display()
+        public new void Display()
         {
-            return "I am RubberDuck Duck";
+            Console.WriteLine("I am RubberDuck Duck");
         }
         //Nos dimos cuenta que los patos de goma no pueden volar
-        public new string Fly()
+        public new void Fly()
         {
-            return "-";
+            Console.WriteLine("");
         }
         //Nos dimos cuenta que los patos de goma no hacen quack si no mas bien un chirrido
-        public new string Quack()
+        public new void Quack()
         {
-            return "Squeak";
+            Console.WriteLine("Squeak");
         }
 
     }

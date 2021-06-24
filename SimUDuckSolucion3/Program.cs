@@ -12,24 +12,24 @@ namespace SimUDuckSolucion3
         {
             //Otra posible solucion implementando interfaces
             MallardDuck mallardDuck = new MallardDuck();
-            Console.WriteLine(mallardDuck.Display());
-            Console.WriteLine(mallardDuck.Quack());
-            Console.WriteLine(mallardDuck.Swim());
-            Console.WriteLine(mallardDuck.Fly());
+            mallardDuck.Display();
+            mallardDuck.Quack();
+            mallardDuck.Swim();
+            mallardDuck.Fly();
             Console.WriteLine("-------------------------");
             RedheadDuck redheadDuck = new RedheadDuck();
-            Console.WriteLine(redheadDuck.Display());
-            Console.WriteLine(redheadDuck.Quack());
-            Console.WriteLine(redheadDuck.Swim());
-            Console.WriteLine(redheadDuck.Fly());
+            redheadDuck.Display();
+            redheadDuck.Quack();
+            redheadDuck.Swim();
+            redheadDuck.Fly();
             Console.WriteLine("-------------------------");
             RubberDuck rubberDuck = new RubberDuck();
-            Console.WriteLine(rubberDuck.Display());
-            Console.WriteLine(rubberDuck.Quack());
-            Console.WriteLine(rubberDuck.Swim());
+            rubberDuck.Display();
+            rubberDuck.Quack();
+            rubberDuck.Swim();
             Console.WriteLine("-------------------------");
             DecoyDuck decoyDuck = new DecoyDuck();
-            Console.WriteLine(decoyDuck.Display());            
+            decoyDuck.Display();            
             Console.ReadKey();
         }
     }
